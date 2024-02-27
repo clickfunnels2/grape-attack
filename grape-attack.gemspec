@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "grape", ">= 0.16", "< 2.0"
   spec.add_dependency "redis-namespace", "~> 1.5"
   spec.add_dependency "activemodel", ">= 4.0"
-  spec.add_dependency "activesupport", ">= 4.0", "< 7"
+  spec.add_dependency "activesupport", ">= 4.0", "< 8.0"
 
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
